@@ -1,0 +1,64 @@
+nav ul{
+    list-style-type: none;
+    width: 125px;
+    background-color:fuchsia;
+   
+}
+
+li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+   
+    
+}
+
+li a:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+#hometitle{
+    font-family: monospace;
+    color:darkolivegreen;
+    text-align: center;
+}
+
+.pgtitles{
+    font-family: monospace;
+    color:darkgreen;
+    text-align: center;
+}
+
+head{
+    background-color: cornsilk;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.picvidtitle{
+    font-family: monospace;
+    background-color: darkseagreen;
+    width: 200px;
+    margin-left: 500px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nonhome{
+    font-family: monospace;
+    font-size: 20px;
+}
