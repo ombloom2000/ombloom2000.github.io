@@ -1,0 +1,24 @@
+p{
+    
+    background-color: aquamarine;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 125px;
+    background-color: cadetblue;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+li a:hover {
+    background-color: blueviolet;
+    color: black;
+}

@@ -1,0 +1,36 @@
+head{
+    background-color: #F8B195;
+}
+
+body{
+    background-color: #F8B195;
+}
+
+h1{
+    font-family: cursive;
+    color: #355C7D;
+    background-color: #F67280;
+   
+}
+
+h2{
+    font-family: serif;
+    color:#6C5B7B;
+    
+}
+
+.info{
+    font-family:serif;
+    color:#C06C84;
+}
+
+ul{
+    color:#355C7D;
+    text-align: center;
+    list-style: inside;
+}
+
+.center{
+    text-align: center;
+}
+
