@@ -1,7 +1,7 @@
 nav ul{
     list-style-type: none;
     width: 125px;
-    background-color:fuchsia;
+    background-color:#1B7EA3;
    
 }
 
@@ -14,9 +14,13 @@ li a{
     
 }
 
-li a:hover {
-    background-color: darkmagenta;
-    color: white;
+li:hover {
+    background-color:#C6E8CF ;
+    
+}
+
+.clicked{
+    background-color: #C6E8CF;
 }
 
 img {
@@ -28,6 +32,7 @@ img {
 
 #pizza{
     text-align: center;
+    font-family: monospace;
 }
 
 .gradient {
@@ -37,4 +42,19 @@ img {
     linear-gradient(
       green, #1B7EA3
     );
+}
+
+.BodyText{
+    text-align:center;
+    font-size: 60px;
+    color: #C6E8CF;
+    font-family: monospace;
+}
+
+#trendy{
+    color:#DFAB00;
+}
+
+#wack{
+    color:#7C00DF;
 }
