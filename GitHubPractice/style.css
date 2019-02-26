@@ -1,0 +1,40 @@
+nav ul{
+    list-style-type: none;
+    width: 125px;
+    background-color:fuchsia;
+   
+}
+
+li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+   
+    
+}
+
+li a:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+img {
+    display:  block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pizza{
+    text-align: center;
+}
+
+.gradient {
+  height: 500px;
+  background-color: green;
+  background-image:
+    linear-gradient(
+      green, #1B7EA3
+    );
+}
