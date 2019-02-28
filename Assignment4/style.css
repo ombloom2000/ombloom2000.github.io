@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    text-align: center;
+    background-color: #72342C;
+    position: fixed; 
+    width: 100%;
+    
+    
+}
+
+nav li{
+    display: inline;
+    padding: 50px;
+    
+    
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+
+#Home{
+    background-color:#A56757;
+    height: 500px;
+    padding: 80px;
+    font-family: monospace;
+}
+
+#Digital{
+    background-color:#D9AD90;
+    height: 500px;
+    padding: 50px;
+    font-family: monospace;
+}
+
+#Photography{
+    background-color: #EFDAC5;
+    height: 500px;
+    padding: 50px;
+    font-family: monospace;
+}
+
+#Animation{
+    background-color: #E8D0B6;
+    height: 500px;
+    padding: 50px;
+    font-family: monospace;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+li a:active{
+    background-color: cornsilk;
+}
+
+#Home p{
+    font-size: 20px;
+}
+
+#Home img{
+    display:block;
+    width: 300px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+#doodle{
+    display:block;
+    width:300px;
+    padding-top:20px;
+    float:left;
+}
+
+#face{
+    display: inline-block;
+    width 200px;
+    float left;
+    padding-left:80px;
+}
+
+#lips{
+    display:inline-block;
+    width: 300px;
+    float: right;
+}
+
+#building{
+    display:inline-block;
+    width:490px;
+    float:left;
+    padding-top: 20px;
+}
+
+#food{
+     display:inline-block;
+    width:490px;
+    float:right;
+    padding-top: 20px;
+
+}
+
+#rainbow{
+    display:inline-block;
+    width: 490px;
+    padding-top:20px;
+}
+
+
+#planet{
+    display: inline-block;
+    width: 490px;
+    padding-top: 20px;
+    float: right;
+}
