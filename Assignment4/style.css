@@ -86,8 +86,9 @@ li a:active{
 #face{
     display: inline-block;
     width 200px;
-    float left;
-    padding-left:80px;
+    float: left;
+    padding-left: 260px;
+    
 }
 
 #lips{
