@@ -1,0 +1,344 @@
+
+
+nav{
+    background-color: #231F20;
+    flex-wrap: wrap;
+    display: flex;
+     font-family: 'Questrial', sans-serif;
+    color: #FFFFFF;
+    margin-left: 0px;
+}
+
+body{
+    background-color: #231F20;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ul {
+  background: #231F20;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #FFFFFF;
+    background: #231F20;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+  
+li a {
+  color: #FFFFFF;
+}
+
+li:hover {
+    background: #646F74;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: #646F74;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+clear: both;
+width: 100%;
+}
+
+
+
+.title{
+    font-family: 'Questrial', sans-serif;
+    color: #FFFFFF;   
+}
+
+.titlesection{
+        display: flex;
+        justify-content: center;
+    }
+
+
+.hex{
+    opacity: 0;
+    margin-top: -40;
+}
+
+
+.column2:hover .hex{
+    opacity: 1;
+    transition-duration: 1.0s;
+    
+}
+
+.column4:hover .hex{
+    opacity: 1;
+    transition-duration: 1.0s;
+    
+}
+
+
+.pageparagraph{
+    font-family: 'Questrial', sans-serif;
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: left;
+    margin-right: 3%;
+    margin-left: 3%
+}
+
+.row1 {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  margin-top: 80px;
+ 
+}
+
+.column1 {
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.column1 img{
+    width:80%;
+}
+
+.row2 {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+    margin-top: 20px;
+    
+}
+
+.column2{
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.column2 img{
+    width:80%;
+}
+
+.row3 {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+    margin-top: 20px;
+    
+}
+
+.column3{
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.column3 img{
+    width:80%;
+}
+
+.row4 {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  margin-top: 20px;
+   
+}
+
+.column4{
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.column4 img{
+    width:80%;
+}
+
+.column1 img:hover{
+    transform: scale(1.2);
+    transition-duration: 1.0s;
+}
+
+.column3 img:hover{
+    transform: scale(1.2);
+    transition-duration: 1.0s;
+}
+
+
+
+/*media query changes*/
+@media only screen and (max-width: 1300px){
+    body{
+        background-color:darkseagreen;
+    }
+     .pageparagraph{
+        font-size: 15px;
+    }
+     .row1 {
+        margin-top: 40px; 
+    }
+    
+    nav{
+        background-color: darkseagreen;
+    }
+    ul{
+        background: darkseagreen;
+    }
+    li{
+        background: darkseagreen;
+    }
+    .hex{
+        display: none;
+    }
+    
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color:cadetblue;
+    }
+    
+    .pageparagraph{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    .row1 {
+        margin-top: 10px; 
+    }
+    
+    .hex{
+        display: none;
+    }
+    nav{
+        background-color: cadetblue;
+    }
+    ul{
+        background: cadetblue;
+    }
+    li{
+        background: cadetblue;
+    }
+   .column1 img:hover{
+    transform: none;
+    }
+
+   .column3 img:hover{
+    transform:none;
+    }
+  
+    
+    .row1 {
+  display: flex;
+  text-align:center;
+  justify-content:center;
+flex-wrap: wrap;
+  
+}
+
+.column1 {
+  flex: 100%;
+  padding: 5px;
+
+
+}
+
+.column1 img{
+    width:80%;
+}
+    
+        .row2 {
+  display: flex;
+  text-align:center;
+  justify-content:center;
+  flex-wrap: wrap;
+  
+}
+
+.column2 {
+  flex: 100%;
+  padding: 5px;
+
+}
+
+.column2 img{
+    width:80%;
+}
+    
+        .row3 {
+  display: flex;
+  text-align:center;
+  justify-content:center;
+flex-wrap: wrap;
+  
+}
+
+.column3 {
+  flex: 100%;
+  padding: 5px;
+
+}
+
+.column3 img{
+    width:80%;
+}
+    
+        .row4 {
+  display: flex;
+  text-align:center;
+  justify-content:center;
+flex-wrap: wrap;
+  
+}
+
+.column4 {
+  flex: 100%;
+  padding: 5px;
+
+}
+
+.column4 img{
+    width:80%;
+}
+}
+   
+   
+   
+
+
+
+
+
