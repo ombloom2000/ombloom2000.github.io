@@ -1,0 +1,55 @@
+.chocolate { 
+    grid-area: main1; 
+background-color: saddlebrown;
+    font-family: monospace;
+    font-size: 50px;
+    height: 200px;
+}
+
+.strawberry { 
+    grid-area: main2; 
+background-color: lightpink;
+    font-family: monospace;
+    height: 200px;
+    font-size: 50px;
+}
+
+.vanilla { 
+    grid-area: main3; 
+background-color: cornsilk;
+    font-family: monospace;
+    height: 200px;
+    font-size: 50px;
+}
+
+.cone { 
+    grid-area: footer; 
+}
+
+img{
+    width: 1125px;
+    height: 300px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'main1 main1 main2 main2 main3 main3'
+    'footer footer footer footer footer footer';
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 1px 0;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+#chocolate{
+    background-color: saddlebrown;
+    text-align: center;
+    height: 200px;
+    font-family: monospace;
+    font-size: 50px;
+}
+#strawberry{
+    background-color: lightpink;
+    text-align: center;
+    height: 200px;
+    font-family: monospace;
+    font-size: 50px;
+}
+#vanilla{
+    background-color: cornsilk;
+    text-align: center;
+    height: 200px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+img{
+    height: 300px;
+    width: 1125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.container{
+    margin-top: 90px;
+    
+}
