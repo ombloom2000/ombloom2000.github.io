@@ -1,0 +1,229 @@
+#homebody{
+    background-image: url(bandpic.jpg);
+}
+#title{
+    text-align: center;
+    font-size: 200px;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1312E;
+}
+#enterbutton{
+    display: block;
+    margin-top: 300px;;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    font-size: 70px;
+    background-color: #B1312E;
+    color:#F3C658;  
+    width: 26%;
+}
+
+@media screen and (max-width: 1600px){
+    #title{
+        font-size:150px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #title{
+        font-size:100px;
+    }
+    #enterbutton{
+        width: 45%;
+    }
+}
+
+
+
+#cornertitle{
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color:white;
+    font-size: 110px;
+    position: fixed;
+    top:0;
+    left:10px;
+}
+
+#navbar{
+    z-index: -1;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.navanchor{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    
+}
+
+.navanchor:hover{
+    color: #6A697C;
+}
+
+@media screen and (max-width: 1600px){
+    #cornertitle{
+        font-size: 80px;
+    } 
+    .navanchor{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1200px){
+    #cornertitle{
+        font-size: 60px;
+    } 
+    .navanchor{
+        font-size: 30px;
+    }
+}
+
+
+
+
+#musicbody{
+    background-color: #B1312E;
+}
+#albumtitle{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: 100px;
+    margin-left: 35%;
+    font-size: 35px;
+}
+
+#talesalbum{
+   width: 500px; 
+   max-width: 100%;
+   margin-left: 35%;
+    
+}
+#spotify{
+    margin-top: 215px;
+    margin-left: 20%;
+    
+}
+#musiccontent{
+    display:flex;
+    
+}
+
+
+
+
+
+
+
+
+#vidbody{
+    background-color: #A5D2C4;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+#tourbody{
+   background-color: #FBC53B; 
+}
+
+#top{
+    margin-top:100px;
+}
+.ticketgrid {
+  display: flex;
+  margin-left: 200px;
+  padding: 10px;
+}
+.col {
+  flex: 1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+    
+}
+.colbut{
+    flex:.75;
+}
+
+.colbut button{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #B1312E; 
+    font-size: 30px;
+    background-color: #96D4C2;
+}
+
+button a{
+    text-decoration: none;
+    color: #B1312E;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #FBC53B;
+  color: white;
+  border: 1px white solid;
+}
+
+.fa-instagram {
+  background: #6A697C;
+  color: white;
+  border: 1px white solid;
+}
+
+.fa-twitter {
+  background: #A5D2C4;
+  color: white;
+  border: 1px white solid;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.social {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.social a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
