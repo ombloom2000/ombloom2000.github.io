@@ -1,0 +1,24 @@
+#sloth{
+    display:block;
+    width: 900px;
+    z-index: -1;
+    
+}
+
+#container{
+    position:relative;
+    left: 50px;
+    width: 900px;
+    height: 700px;
+    border: 5px black solid;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+#nose{
+    position:absolute;
+    width:150px;
+    left:50px;
+    top:50px;
+    
+}
