@@ -8,6 +8,19 @@
     font-family: 'Nunito Sans', sans-serif;
     color: #B1312E;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 #enterbutton{
     display: block;
     margin-top: 300px;;
@@ -20,7 +33,10 @@
     color:#F3C658;  
     width: 26%;
 }
-
+#enterbutton:hover{
+    background-color:#F3C658;
+    color: #B1312E;
+}
 @media screen and (max-width: 1600px){
     #title{
         font-size:150px;
@@ -71,11 +87,21 @@
     color: #6A697C;
 }
 
+li a.active{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 60px;
+    color: #519E48;
+}
+
 @media screen and (max-width: 1600px){
     #cornertitle{
         font-size: 80px;
     } 
     .navanchor{
+        font-size: 40px;
+    }
+    li a.active{
         font-size: 40px;
     }
 }
@@ -85,6 +111,31 @@
     } 
     .navanchor{
         font-size: 30px;
+    }
+    li a.active{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #cornertitle{
+        font-size: 50px;
+    } 
+    .navanchor{
+        font-size: 26px;
+    }
+    li a.active{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 900px){
+    #cornertitle{
+        font-size: 45px;
+    } 
+    .navanchor{
+        font-size: 20px;
+    }
+    li a.active{
+        font-size: 20px;
     }
 }
 
@@ -133,6 +184,30 @@
     justify-content: center;
     padding-top: 50px;
 }
+#vidbody {
+      animation: colorchange 5s; 
+       -webkit-animation: colorchange 5s; 
+      animation-iteration-count: infinite;
+       -webkit-animation-iteration-count: infinite;
+    }
+
+    @keyframes colorchange
+    {
+      20%   {background: #A5D2C4;}
+      35%  {background: #B1312E;}
+      50%  {background: #FBC53B;}
+      75%  {background: #6A697C;}
+      100% {background: #519E48;}
+    }
+
+    @-webkit-keyframes colorchange
+    {
+      20%   {background: #A5D2C4;}
+      35%  {background: #B1312E;}
+      50%  {background: #FBC53B;}
+      75%  {background: #6A697C;}
+      100% {background: #519E48;}
+    }
 
 
 
@@ -165,13 +240,26 @@
     font-family: 'Nunito Sans', sans-serif;
     color: #B1312E; 
     font-size: 30px;
-    background-color: #96D4C2;
+    background-color: #00B9CA;
 }
 
-button a{
+.colbut button a{
     text-decoration: none;
     color: #B1312E;
 }
+
+.colbut button:hover{
+    background-color:#B1312E;
+}
+
+.colbut button a:hover{
+   color: #00B9CA;
+}
+
+.date{
+    flex:.3;
+}
+
 
 .fa {
   padding: 10px;
