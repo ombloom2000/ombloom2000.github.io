@@ -260,6 +260,15 @@ li a.active{
     flex:.3;
 }
 
+#counter{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    color: #B1312E;
+
+    
+}
+
 #gif{
     width:170px;
     float:left;
