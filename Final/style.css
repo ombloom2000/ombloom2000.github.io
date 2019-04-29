@@ -270,12 +270,16 @@ li a.active{
 }
 
 #gif{
-    width:170px;
+    
+    width:150px;
     float:left;
 }
 #gif2{
-    width:170px;
-    float:right;
+    
+    width:150px;
+    margin-left: -150px;
+    float:left;
+    margin-top:600px;
 }
 
 
