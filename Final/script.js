@@ -35,3 +35,9 @@ var x = setInterval(function() {
     document.getElementById("counter").innerHTML = "SHOW TIME";
   }
 }, 1000);
+
+
+
+$('.card').click(function(){
+  $(this).toggleClass('flipped');
+});
