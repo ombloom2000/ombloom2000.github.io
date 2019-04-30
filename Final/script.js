@@ -37,7 +37,8 @@ var x = setInterval(function() {
 }, 1000);
 
 
-
+$(document).ready(function(){
 $('.card').click(function(){
   $(this).toggleClass('flipped');
+});
 });
