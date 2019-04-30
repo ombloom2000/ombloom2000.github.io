@@ -11,16 +11,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 #enterbutton{
     display: block;
     margin-top: 300px;;
@@ -201,7 +191,7 @@ li a.active{
   float:left;
   width: 38%;
   height: 380px;
-  margin: 70px 98px; 0 4%;
+  margin: 70px 90px; 0 4%;
   
   
   /* Set the depth of the elements */
