@@ -249,7 +249,7 @@ li a.active{
 }
 
 .card .back {
-  background: red;
+  background: #8EC1FF;
   -webkit-transform: rotateY( 180deg );
   -moz-transform: rotateY( 180deg );
   -o-transform: rotateY( 180deg );
